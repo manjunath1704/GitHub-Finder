@@ -188,6 +188,9 @@ ul {
   .hf-heading {
     font-size: 1.5rem;
   }
+  .gf-Search{
+    margin-top:80px;
+  }
 }
 
 .gf-form {
@@ -289,7 +292,14 @@ ul {
 .gf-profile__details {
   text-align: center;
 }
-
+@media(max-width:960px){
+  .gf-profile__details {
+   margin-top: 3rem;
+  }
+  .gf-profile__topbar {
+   margin-top:2rem;
+  }
+}
 .gf-profile__avatar {
   height: 200px;
   width: 200px;
